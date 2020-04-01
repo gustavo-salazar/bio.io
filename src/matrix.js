@@ -16,7 +16,7 @@ var MatrixReader = function(text) {
 
 parser.mixin(MatrixReader);
 
-module.exports = MatrixReader;
+export default MatrixReader;
 
 MatrixReader.prototype.parse = function(text) {
   text.split("\n").forEach(function(el) {
